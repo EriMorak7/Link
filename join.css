@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.col{
+    background-color: #F3F2F0;
+    height: 700px;
+}
+
+.image img{
+    height: 33px;
+    padding-left: 130px;
+    padding-top: 25px;
+}
+
+.form{
+    align-items: center;
+    text-align: center;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.form h3{
+    font-size: 32px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.move{
+    padding-left: 15px;
+}
+
+.join{
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    height: 450px;
+    border-radius: 10px;
+    width: 380px;
+    margin: auto;
+}
+
+.join p{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 3px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #404040;
+}
+
+.join input{
+    width: 350px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+
+.join input:hover{
+    background-color: #F3F2F0;
+    border: 2px solid black;
+}
+
+.join .agree{
+    font-size: 12px;
+    color: gray;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.join .agree a{
+    text-decoration: none;
+    color: #0077B5;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.join .a{
+    height: 50px;
+    width: 350px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #0B66C3;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.join .a:hover{
+    background-color: #004182;
+}
+
+.dash{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.google{
+    margin-left: 18px;
+    height: 40px;
+    width: 315px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 10px;
+    text-align: center;
+}
+
+.google:hover{
+    border: 2px solid #666666;
+    background-color: #f8faff;
+}
+
+.google img{
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
+}
+
+.google a{
+    text-decoration: none;
+    color: #42464F;
+    height: 80px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+}
+
+.ggl{
+    display: flex;
+    justify-content: center;
+}
+
+.already{
+    text-align: center;
+    padding-top: 30px;
+}
+
+.already p{
+    font-size: 15px;
+}
+
+.already a{
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+}
+
+.already a:hover{
+    text-decoration: underline;
+}
+
+.outside a:hover{
+    text-decoration: underline;
+}
+
+
+.outside{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.outside p{
+    font-size: 15px;
+}
+
+.outside a{
+    text-decoration: none;
+    color: blue;
+    font-size: 15px;
+}
+
+
+.footer img{
+    height: 15px;
+    width: 100px;
+}
+
+
+.footer{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    font-size: 10px;
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.footer a{
+    text-decoration: none;
+    font-size: 11px;
+    color: grey;
+    padding-left: 15px;
+}
+
+@media(max-width: 991px) {
+    .form h3{
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .image img{
+        padding: 20px;
+    }
+    .footer{
+        display: block;
+    }
+    .footer a{
+        display: block;
+        font-size: 13px;
+    }
+}
